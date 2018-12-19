@@ -1,0 +1,12 @@
+global_libs:
+  version: 1.x
+  js:
+    js/bootstrap.js: {}
+    js/jquery-3.3.1.js: {}
+    js/bootstrap.min.js: {}
+  css:
+    theme:
+      css/bootstrap.css : {}
+      css/bootstrap.min.css: {}
+      css/custom.css: {}
+

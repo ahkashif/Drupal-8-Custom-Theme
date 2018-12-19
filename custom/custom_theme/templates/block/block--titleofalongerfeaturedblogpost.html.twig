@@ -1,0 +1,29 @@
+
+<div class ="jumbotron" style = "background-color: black;height: 380px; ">
+	<div class ="col-md-8 ">
+		<section{{ attributes.addClass(classes) }}>
+		  {{ title_prefix }}
+		  {% if label %}
+		    <p {{ title_attributes.addClass('block-title') }} style="font-style: italic;font-size: 60px; color:white; ">{{ label }} </p>
+		  {% endif %}
+		  {{ title_suffix }}
+		  
+		  {% block content %}
+
+		 <font color= "white">
+		 	{{ content }}
+		 </font>
+		  	
+		  {% endblock %}
+
+		</section>
+		<br>
+		<a href="#" style="font-size: 18px;">Continue reading...</a>
+	</div>
+
+
+
+</div>
+
+
+

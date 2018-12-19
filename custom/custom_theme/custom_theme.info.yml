@@ -1,0 +1,17 @@
+name: 'custom_theme' 
+type: 'theme'
+description: 'This is a drupal custom theme'
+core: 8.x
+base theme: bootstrap
+regions:
+  header: 'Header'
+  navigation: 'Navigation'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+libraries:
+  - 'custom_theme/global_libs'
